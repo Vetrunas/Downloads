@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+.logo {
+    max-width: 100px; 
+    margin-right: 20px; 
+}
+
+.navbar {
+    background-color: #f8f9fa; 
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000; 
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+section img {
+    max-width: 800px;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+#social-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+.social-box img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+}
